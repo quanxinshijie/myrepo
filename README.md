@@ -33,6 +33,8 @@ token的存储也都存放在内存中，后续若有需要，可配置在数据
 授权码模式中实现自定义登录页面和自定义授权页面
 
 存储token及客户端的数据库表结构
+
+
 ```
 CREATE SCHEMA IF NOT EXISTS `alan-oauth` DEFAULT CHARACTER SET utf8 ;
 USE `alan-oauth` ;
