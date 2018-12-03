@@ -137,3 +137,7 @@ CREATE TABLE IF NOT EXISTS `alan-oauth`.`oauth_refresh_token` (
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8;
 ```
+
+sso-server、sso-client1、sso-client2这三个项目实现了单点登录功能
+
+share-seeion项目利用redis实现分布式session共享功能
