@@ -21,6 +21,7 @@ public class OAuth2AuthorizationServer extends AuthorizationServerConfigurerAdap
                 .secret(passwordEncoder.encode("123"))
                 .authorizedGrantTypes("client_credentials")
                 .accessTokenValiditySeconds(300)
-                .scopes("admin");
+                .scopes("admin")
+        ;
     }
 }

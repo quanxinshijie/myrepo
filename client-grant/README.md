@@ -6,7 +6,7 @@ http://localhost:8080/oauth/token
 
 参数名称 | 参数值 | 参数说明
 ---|--- |--- 
-grant_type | client_credentials | 授权类型
+grant_type | client_credentials | 授权类型,
 Username | clientadmin | 放在Authorization,客户端的用户名
 Password | 123 | 放在Authorization,客户端的密码
 ```
